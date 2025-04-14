@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Walimatulurus Nisa’ & Adib</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .calendar-btn {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-bottom: 2rem;
+    }
+
+    .calendar-btn:hover {
+      background-color: #357ae8;
+    }
+
+    .qr {
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .calendar-btn {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Walimatulurus Nisa’ & Adib</h1>
+  <p>You are invited to our special day! Tap the button below to save the event to your Google Calendar.</p>
+
+  <a class="calendar-btn"
+     href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Walimatulurus+Nisa%E2%80%99+-+Adib&dates=20250503T033000Z/20250503T073000Z&details=Walimatulurus+Nisa%E2%80%99++-++Adib&location=Dewan+Terbuka+Taman+Pulai+Idaman+Kg.+Paya+Pulai+Tengah,+28000+Temerloh,+Pahang"
+     target="_blank">
+    ➕ Add to Google Calendar
+  </a>
+
+  <p><em>If you're on mobile, open this link with the Google Calendar app for best experience.</em></p>
+
+  <!-- Optional QR code for physical invites -->
+  <div class="qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://calendar.google.com/calendar/u/0/r/eventedit?text=Walimatulurus+Nisa%E2%80%99+-+Adib&dates=20250503T033000Z/20250503T073000Z&details=Walimatulurus+Nisa%E2%80%99++-++Adib&location=Dewan+Terbuka+Taman+Pulai+Idaman+Kg.+Paya+Pulai+Tengah,+28000+Temerloh,+Pahang" alt="QR Code to calendar event">
+    <p>Scan to add to your calendar</p>
+  </div>
+
+</body>
+</html>
