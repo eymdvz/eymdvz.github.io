@@ -7,3 +7,6 @@
     <p>Redirecting...</p>
   </body>
 </html>
+<script>
+  window.location.href = "https://sites.google.com/view/student-unija/gong-badak-kota/peta-kgb/rating-feedback";
+</script>
